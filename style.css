@@ -61,7 +61,7 @@ h1{
     width: 1.2rem;
     height: 1.2rem;
     border-radius: 50%;
-    background-color: green;
+    background-color: rgb(1, 109, 180);
     color: white;
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@ h1{
     color: #b5b5b5;
 }
 
-.mensagem{
+.msg{
     color: #6b6b6b;
 }
 
@@ -89,7 +89,7 @@ h1{
     position: absolute;
     bottom: -15px;
     left: 74px;
-    background-color: green;
+    background-color: rgb(1, 109, 180);
     padding: 4px 10px;
     font-size: 14px;
     border-radius: 12px;
