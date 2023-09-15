@@ -6,7 +6,7 @@ const contatos=[
         qtd:'4',
         msg:'Me faz um pix aí.',
         tempo:'Há 4 min',
-        atendente:'Campos',
+        atendente:'G. Campos',
     },
     {
         img:'juan.PNG',
@@ -14,7 +14,7 @@ const contatos=[
         qtd:'2',
         msg:'Vamo pro Villa amanhã?',
         tempo:'Há 1 hora',
-        atendente:'Campos',
+        atendente:'G. Campos',
     },
     {
         img:'paizao.PNG',
@@ -22,7 +22,7 @@ const contatos=[
         qtd:'10',
         msg:'Deus te abençoe, paizão.',
         tempo:'Agora mesmo',
-        atendente:'Campos',
+        atendente:'G. Campos',
     },
 ]
 function criarContatos(contato){
