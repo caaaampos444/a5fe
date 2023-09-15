@@ -1,13 +1,29 @@
 'use strict'
 const contatos=[
     {
-        img:'ana.jpg',
+        img:'nuno.PNG',
         nome:'Nuno',
-        qtd:'3',
-        msg:'to duro',
+        qtd:'4',
+        msg:'Me faz um pix aí.',
+        tempo:'Há 4 min',
+        atendente:'Campos',
+    },
+    {
+        img:'juan.PNG',
+        nome:'Juan',
+        qtd:'2',
+        msg:'Vamo pro Villa amanhã?',
+        tempo:'Há 1 hora',
+        atendente:'Campos',
+    },
+    {
+        img:'paizao.PNG',
+        nome:'Nicholas',
+        qtd:'10',
+        msg:'Deus te abençoe, paizão.',
         tempo:'Agora mesmo',
         atendente:'Campos',
-    }
+    },
 ]
 function criarContatos(contato){
     const container=document.getElementById('container')
@@ -48,7 +64,7 @@ function criarContatos(contato){
 
     contatoInfo.replaceChildren(nome,qtd)
     informacoes.replaceChildren(contatoInfo,msg)
-    card.replaceChildren(informacoes,img,tempo,atendente)
+    card.replaceChildren(img,informacoes,tempo,atendente)
     container.appendChild(card)
 }
 contatos.forEach(criarContatos)
