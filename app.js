@@ -1,6 +1,14 @@
 'use strict'
 const contatos=[
     {
+        img:'paizao.PNG',
+        nome:'Nicholas',
+        qtd:'10',
+        msg:'Deus te abençoe, paizão.',
+        tempo:'Agora mesmo',
+        atendente:'G. Campos',
+    },
+    {
         img:'nuno.PNG',
         nome:'Nuno',
         qtd:'4',
@@ -12,16 +20,8 @@ const contatos=[
         img:'juan.PNG',
         nome:'Juan',
         qtd:'2',
-        msg:'Vamo pro Villa amanhã?',
+        msg:'vamo pro Villa amanhã?',
         tempo:'Há 1 hora',
-        atendente:'G. Campos',
-    },
-    {
-        img:'paizao.PNG',
-        nome:'Nicholas',
-        qtd:'10',
-        msg:'Deus te abençoe, paizão.',
-        tempo:'Agora mesmo',
         atendente:'G. Campos',
     },
 ]
